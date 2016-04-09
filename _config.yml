@@ -1,0 +1,27 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:               My Brain
+tagline:             'A collection of things'
+description:         '  Thanks for all the fish '
+url:                 http://MikeBeaulieu.github.io
+baseurl:             ''
+#paginate:            5
+gems: [jekyll-paginate]
+paginate: 2
+
+# About/contact
+author:
+  name:              Mike Beaulieu
+  url:               
+  email:             Mike.Beaulieu@firmafx.com
+
+# Custom vars
+version:             1.0.0
+
+collections:
+  statusupdates:
+    output: true
