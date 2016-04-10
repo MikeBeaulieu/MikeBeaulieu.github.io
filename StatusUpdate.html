@@ -7,22 +7,15 @@ title: Development Team Status Update
 <h3>Active Work</h3>
   {% for post in site.statusupdates %}
   <div class="post">
-    {% if post.status == "onhold" %}
-	     {% continue %}
-   {% endif %}
-<div class="message">
-    <div class="status-title">
-        {{ post.title }} - {{ post.type }}
-        
-    </div>
-
-    <!--<span class="status-date">updated {{ post.date | date_to_string }}</span>-->
-    <span class="status-date">updated {{ post.updated | date_to_string }}</span>
-
-
-
-    {{ post.content }}
+    {% if post.status == "active" %}
+	<div class="message">
+		<div class="status-title">
+			{{ post.title }} - {{ post.type }}
+		</div>
+		<span class="status-date">updated {{ post.updated | date_to_string }}</span>
+		{{ post.content }}
 	</div>
+	{% endif %}
   </div>
   {% endfor %}
 </div>
@@ -30,21 +23,15 @@ title: Development Team Status Update
 <h1>On Hold</h1>
   {% for post in site.statusupdates %}
   <div class="post">
-    {% if post.status == "active" %}
-	     {% continue %}
-   {% endif %}
-<div class="message">
-    <div class="status-title">
-        {{ post.title }}
-         <span class="status-type"  style="float: right">{{ post.type }}
-    </div>
-
-    <span class="status-date">updated {{ post.date | date_to_string }}</span>
-
-
-
-    {{ post.content }}
+    {% if post.status == "onhold" %}
+	<div class="message">
+		<div class="status-title">
+			{{ post.title }} - {{ post.type }}
+		</div>
+		<span class="status-date">updated {{ post.updated | date_to_string }}</span>
+		{{ post.content }}
 	</div>
+  {% endif %}
   </div>
   {% endfor %}
 </div>
