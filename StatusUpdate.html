@@ -6,15 +6,24 @@ title: Development Team Status Update
 <div class="posts">
 <h3>Active Work</h3>
   {% for post in site.statusupdates %}
-  <div class="post">
+  {% assign loopindex = forloop.index %}
+  <div id="alt" class="post">
     {% if post.status == "active" %}
 	<div class="message">
 		<div class="status-title">
 			{{ post.title }} - {{ post.type }}
 		</div>
+		
+	
 		<span class="status-date">updated {{ post.updated | date_to_string }}</span>
+		<button class="btn" data-clipboard-demo data-clipboard-text="{{  post.title }}  {{ post.content | remove: '<p>' | remove: '</p>' }}">
+    Copy to clipboard
+</button>
 		{{ post.content }}
 	</div>
+	
+	
+
 	{% endif %}
   </div>
   {% endfor %}
@@ -29,6 +38,9 @@ title: Development Team Status Update
 			{{ post.title }} - {{ post.type }}
 		</div>
 		<span class="status-date">updated {{ post.updated | date_to_string }}</span>
+		<button class="btn" data-clipboard-demo data-clipboard-text="{{  post.title }}  {{ post.content | remove: '<p>' | remove: '</p>' }}">
+    Copy to clipboard
+</button>
 		{{ post.content }}
 	</div>
   {% endif %}

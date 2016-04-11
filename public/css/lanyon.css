@@ -380,6 +380,10 @@ a.sidebar-nav-item:focus {
   font-size: .75rem;
 }
 
+.status-hidden-text{
+  display: none;
+}
+
 
 /*
  * Pagination

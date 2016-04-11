@@ -25,3 +25,5 @@ version:             1.0.0
 collections:
   statusupdates:
     output: true
+  about:
+    output: true
