@@ -3,7 +3,8 @@ layout: post
 title: Salesforce Migration
 status: active
 type: Project
-updated: 2016-04-10 9:25:00
+summary: New Bug - not fixed yet.  Customer records that haven't traded yet are not being synchronized from TradeX to SF.
+updated: 2016-04-16 9:25:00
 ---
 
 The logic to extract customers was originally looking only for customers that had traded alread.  This was partly due to the calculation of a Trade First Date field.

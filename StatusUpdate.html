@@ -3,6 +3,18 @@ layout: statusupdate
 title: Development Team Status Update
 ---
 
+<h3>Dev Team Status Update - Executive Summary</h3>
+<ol>
+  {% for post in site.statusupdates %}
+  {% assign loopindex = forloop.index %}
+    {% if post.status == "active" %}
+			<li>
+		    {{ post.title}} - {{ post.summary }}
+			</li>
+	{% endif %}
+{% endfor %}
+	</ol>
+
 <div class="posts">
 <h3>Active Work</h3>
   {% for post in site.statusupdates %}
@@ -13,16 +25,16 @@ title: Development Team Status Update
 		<div class="status-title">
 			{{ post.title }} - {{ post.type }}
 		</div>
-		
-	
+
+
 		<span class="status-date">updated {{ post.updated | date_to_string }}</span>
 		<button class="btn" data-clipboard-demo data-clipboard-text="{{  post.title }}  {{ post.content | remove: '<p>' | remove: '</p>' }}">
     Copy to clipboard
 </button>
 		{{ post.content }}
 	</div>
-	
-	
+
+
 
 	{% endif %}
   </div>

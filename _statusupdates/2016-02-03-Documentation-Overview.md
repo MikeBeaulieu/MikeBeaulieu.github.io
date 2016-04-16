@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TradeX Overview Document
-status: active
+status: complete
 type: Goal
 updated: 2016-04-08 9:25:00
 ---

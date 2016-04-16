@@ -3,6 +3,7 @@ layout: post
 title: Referral Partners Project
 status: active
 type: Project
+summary: Demoed with Brad Friday Apr 15 - didn't go smoothly due to bugs.  We discussed a few important topics related to the business rules, namely whether we should charge settlement fees on Forward Deposits.  Bill will continue with the report development this week.
 updated: 2016-04-10 9:25:00
 ---
 
