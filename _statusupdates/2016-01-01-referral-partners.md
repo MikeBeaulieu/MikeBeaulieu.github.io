@@ -3,7 +3,9 @@ layout: post
 title: Referral Partners Project
 status: active
 type: Project
-summary: Goal for the upcoming week:  Have a version of the Referral Partner report and a Commission report to review and get TradeX to a demoable state.
-updated: 2016-04-22 9:25:00
+summary: First cut was demoed during review meeting.  We made decisions about what we feel needs to be in the upcoming sprint, which starts today.  We are aiming for minimum viability with this 3 week sprint.  Overall project estimate 
+is 30% complete.
+updated: 2016-04-29
+9:25:00
 ---
 
