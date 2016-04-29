@@ -3,8 +3,8 @@ layout: post
 title: Salesforce Migration
 status: active
 type: Project
-summary: Customer Synchronization Bug. We should have the resolution completed this week.
-updated: 2016-04-22 9:25:00
+summary: Customer Synchronization Bug.  No progress made this week.  We should discuss again early next week to follow up on the last email I sent.
+updated: 2016-04-29 9:25:00
 ---
 
 The logic to extract customers was originally looking only for customers that had traded alread.  This was partly due to the calculation of a Trade First Date field.
