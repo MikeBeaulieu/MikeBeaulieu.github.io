@@ -3,7 +3,7 @@ layout: post
 title: MTM Valuations Enhancements
 status: active
 type: Project
-summary:  Lee Anne prepared documentation for current mtm system.  We discussed my goal to come up with a test plan.
+summary:  Lee Anne prepared documentation for current MTM system.  We discussed my goal to come up with a test plan.
 updated: 2016-04-29 9:25:00
 ---
 
