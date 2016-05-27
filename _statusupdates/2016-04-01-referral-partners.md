@@ -3,8 +3,8 @@ layout: post
 title: Referral Partners Project
 status: active
 type: Project
-summary: We have demoed with stakeholders and everyone seems ok with the first release.  Next major PBI is the termination and/or removal of Referred Customers from a Referral Partner.  We will review this scenario with Saddam.
-updated: 2016-05-13 9:25:00
+summary: We decided on the Trade Screen enhancement needed to support the project.  Received feedback from Annelies and Steve L.
+updated: 2016-05-27 9:25:00
 ---
 
 test
