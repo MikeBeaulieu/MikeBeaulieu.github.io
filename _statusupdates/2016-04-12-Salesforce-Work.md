@@ -3,8 +3,8 @@ layout: post
 title: Salesforce Migration
 status: active
 type: Project
-summary: Finished Discrepency Report.  Composed a second report that came out of the meeting with Frida on Monday.  The Missing Customers report was reviewed and a few enhancements are needed before marking it as Done.
-updated: 2016-05-27 9:25:00 
+summary: No progress made this week.  There are a few changes needed on a report and additional trade data needed in the extract.
+updated: 2016-06-03 9:25:00 
 ---
 
 The logic to extract customers was originally looking only for customers that had traded alread.  This was partly due to the calculation of a Trade First Date field.

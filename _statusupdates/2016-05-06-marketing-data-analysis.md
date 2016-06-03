@@ -3,7 +3,7 @@ layout: post
 title: Marketing Data Analysis
 status: active
 type: Project
-summary: Met with Frida on Tuesday May 24.  We have a general idea of her project needs, and we've decided that she'll access the data through the Marketing Server that was setup for DiG consultants.  She now has access but I haven't informed her yet.  I'll need to spend some more time with her in the area of the TradeX data model.
-updated: 2016-05-27 9:25:00
+summary: I provided a good start for Frida. I have not heard back from her so I'll assume for now that she doesn't want any direction.  I don't expect this will take up any more time.
+updated: 2016-06-03 9:25:00
 ---
 

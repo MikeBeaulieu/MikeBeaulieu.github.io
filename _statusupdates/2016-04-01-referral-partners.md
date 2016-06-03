@@ -3,8 +3,8 @@ layout: post
 title: Referral Partners Project
 status: active
 type: Project
-summary: We decided on the Trade Screen enhancement needed to support the project.  Received feedback from Annelies and Steve L.
-updated: 2016-05-27 9:25:00
+summary: Bill has been evaluating our first version of the Commission Reports from the first week of production data and has identified issues and reviewed with the team.
+updated: 2016-06-03 9:25:00
 ---
 
 test
